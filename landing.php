@@ -24,7 +24,7 @@
   <nav class="p-3 shadow navbar fixed-top navbar-expand-lg navbar-dark bg-geo-primary">
     <div class="container">
       <a class="p-0 navbar-brand" href="#home">
-        <img src="../Assets/img/Logo Geotara.png" alt="Bootstrap" width="35" />
+        <img src="./Assets/img/Logo Geotara.png" alt="Bootstrap" width="35" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +74,7 @@
             <img src="Assets/img/geo-list-3.png" class="card-img-top p-3 rounded" alt="Card Image">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title text-center fs-6 fw-bold">Menelusuri Indahnya Curug Sodong</h5>
-              <a href="#" class="btn btn-sm bg-geo-success text-light btn-success mt-auto align-self-start m-auto">Virtual Tour</a>
+              <a href="geosite.php" class="btn btn-sm bg-geo-success text-light btn-success mt-auto align-self-start m-auto">Virtual Tour</a>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
             <img src="Assets/img/geo-list-4.png" class="card-img-top p-3 rounded" alt="Card Image">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title text-center fs-6 fw-bold">Keindahan Bukit Cimarunjung yang Terkenal</h5>
-              <a href="#" class="btn btn-sm bg-geo-success text-light btn-success mt-auto align-self-start m-auto">Virtual Tour</a>
+              <a href="geosite.php" class="btn btn-sm bg-geo-success text-light btn-success mt-auto align-self-start m-auto">Virtual Tour</a>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@
             <img src="Assets/img/geo-list-5.png" class="card-img-top p-3 rounded" alt="Card Image">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title text-center fs-6 fw-bold">Pantai Citepus sebagai Wisata Favorit Di Tahun Baru</h5>
-              <a href="#" class="btn btn-sm bg-geo-success text-light btn-success mt-auto align-self-start m-auto">Virtual Tour</a>
+              <a href="geosite.php" class="btn btn-sm bg-geo-success text-light btn-success mt-auto align-self-start m-auto">Virtual Tour</a>
             </div>
           </div>
         </div>
@@ -149,11 +149,11 @@
             <div class="col mt-3">
               <h4 class="fw-semibold">Rute Ke Geopark Ciletuh</h4>
               <h6 class="fw-semibold">Bogor</h6>
-              <p>Stasiun Bandung | Travel Kota Cianjur - Sukabumi | Travel Sukabumi - Ciletuh</p>
+              <p>Stasiun Bogor | Travel Kota Cianjur - Sukabumi | Travel Sukabumi - Ciletuh</p>
               <h6 class="fw-semibold">Bandung</h6>
               <p>Stasiun Bandung | Travel Kota Cianjur - Sukabumi | Travel Sukabumi - Ciletuh</p>
               <h6 class="fw-semibold">Jakarta</h6>
-              <p>Stasiun Bandung | Travel Kota Cianjur - Sukabumi | Travel Sukabumi - Ciletuh</p>
+              <p>Stasiun Jakarta | Travel Kota Cianjur - Sukabumi | Travel Sukabumi - Ciletuh</p>
             </div>
           </div>
         </div>
