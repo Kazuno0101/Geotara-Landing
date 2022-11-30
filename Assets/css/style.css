@@ -1,3 +1,19 @@
+:root {
+	--color-default: #23A6F0;
+	--color-primary: #40BB15;
+	--color-secondary: #3C403D;
+	--text-color: #252B42;
+	--second-text-color: #737373;
+	--light-text-color: #FFFFFF;
+	--dark-background-color: #252B42;
+	--light-background-color: #fff;
+	--bg-primary-color: #F0F0F0;
+}
+
+.bg-primary-color {
+	background-color: var(--bg-primary-color);
+}
+
 .bg-geo-primary {
 	background-color: #252b42;
 }
