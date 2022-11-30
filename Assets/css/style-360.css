@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.base {
+	background-image: url('/Assets/img/360.png');
+	height: 100vh;
+	width: 100vw;
+}
+
+.exit-360 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+}
+
+.map-360 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.control-360 {
+	position: absolute;
+	left: calc(50% - 300px);
+	bottom: 50px;
+	margin: auto;
+}
+
+.image-360 {
+	width: 100%;
+}
