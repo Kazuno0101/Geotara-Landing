@@ -107,6 +107,27 @@
 	cursor: pointer;
 }
 
+.card-geoarea {
+	height: 100vh;
+}
+
+.card-geoarea img {
+	height: 70vh;
+	width: 100%;
+}
+
+.card-geoarea .card-body {
+	height: 30vh;
+}
+
+.geoarea-nav {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.geoarea-nav button:hover {
+	background-color: #258203;
+}
 @media (max-width: 768px) {
 	.geoarea-list {
 		flex-direction: column !important;
