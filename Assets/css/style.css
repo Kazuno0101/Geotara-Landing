@@ -17,3 +17,48 @@
 .bg-geo-primary {
 	background-color: var(--dark-background-color);
 }
+
+.bg-geo-success {
+	background-color: #40bb15;
+}
+
+.m-content-1 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.m-content-2 {
+	margin-top: 150px;
+	margin-bottom: 80px;
+}
+
+.card-geo-img {
+	height: 250px;
+	width: 250px;
+}
+
+.text-geo-muted {
+	color: #bdbdbd;
+}
+
+.text-geo-success {
+	color: #40bb15;
+}
+
+.form-check-input-geo {
+	background-color: #fff;
+	border-color: #000;
+}
+
+.form-check-input-geo:checked {
+	background-color: #40bb15;
+	border-color: #fff;
+}
+
+.link-geo-success {
+	color: #40bb15;
+}
+
+.link-geo-success:hover {
+	color: #258203;
+}
