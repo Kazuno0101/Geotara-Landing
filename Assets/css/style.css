@@ -15,7 +15,7 @@
 }
 
 .bg-geo-primary {
-	background-color: #252b42;
+	background-color: var(--dark-background-color);
 }
 
 .bg-geo-success {
