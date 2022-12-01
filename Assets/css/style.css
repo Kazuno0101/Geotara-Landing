@@ -124,15 +124,30 @@ body {
 }
 
 .card-geoarea img {
-	height: 70vh;
+	height: 100vh;
 	width: 100%;
+	animation: geoarea-list 5s infinite;
+	object-fit: cover;
+}
+
+.card-geoarea:hover img {
+	height: 70vh;
+	animation: geoarea-list-image 1s;
 }
 
 .card-geoarea .card-body {
-	height: 30vh;
+	display: none;
+	animation: geoarea-list-image 5s;
+}
+
+.card-geoarea:hover .card-body {
+	display: block;
+	animation: geoarea-list-image-body 1s;
 }
 
 .geoarea-nav {
+	position: fixed;
+	z-index: 9999;
 	padding-left: 20px;
 	padding-top: 20px;
 }
@@ -219,8 +234,7 @@ body {
 	display: block;
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0)),
-		linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -243,8 +257,7 @@ body {
 	display: block;
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0)),
-		linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -282,5 +295,35 @@ body {
 
 	.geo-fasilitas-list {
 		flex-direction: column;
+	}
+}
+
+@keyframes geoarea-list {
+	0% {
+		opacity: 0.75;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.75;
+	}
+}
+
+@keyframes geoarea-list-image {
+	0% {
+		height: 100vh;
+	}
+	100% {
+		height: 70vh;
+	}
+}
+
+@keyframes geoarea-list-image-body {
+	0% {
+		height: 0vh;
+	}
+	100% {
+		height: 30vh;
 	}
 }
