@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+  <link rel="stylesheet" href="Assets/css/style.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.css" />
+  
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="p-3 shadow navbar fixed-top navbar-expand-lg navbar-dark bg-geo-primary">
+    <div class="container">
+      <a class="p-0 navbar-brand" href="index.html">
+        <img src="./Assets/img/Logo Geotara.png" alt="Bootstrap" width="35" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Partnership
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="hotel.html">Hotel</a></li>
+              <li><a class="dropdown-item" href="tour-and-travel.html">Tour & Travel</a></li>
+              <li><a class="dropdown-item" href="merchant-and-souveniers.html">Merchant & Souveniers</a></li>
+              <li><a class="dropdown-item" href="restaurant.html">Restaurant</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="geoarea-list.html">Virtual Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="#event">Event</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-5 w" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Content -->
+  <div id="fullpage">
+    <div class="text-white geo-hero d-flex flex-column justify-content-center section" data-aos="fade-up" data-aos-duration="500">
+      <h1 class="fs-1 fw-bold my-4">Geopark Ciletuh</h1>
+      <h3 class="fw-bold">Deskripsi</h3>
+      <p class="fs-6 fw-light">Taman Bumi Ciletuh-Palabuhanratu adalah taman bumi dengan konsep manajemen pengelolaan kawasan yang menyerasikan
+      keragaman geologi, hayati, dan budaya, melalui prinsip konservasi, edukasi, dan pembangunan yang berkelanjutan di
+      kawasan Pelabuhan Ratu, Kabupaten Sukabumi, Provinsi Jawa Barat, Indonesia. Taman Bumi ini adalah satu-satunya taman
+      bumi di Jawa Barat sekaligus yang pertama dan yang ke tiga di Indonesia. Pada tahun 2018, taman bumi ini resmi menjadi
+      UNESCO Global Geopark Network. Pusat Taman Bumi ini berada di Desa Ciwaru, Kecamatan Ciemas sedangkan Pusat Informasi
+      Taman Bumi ini berada di Kelurahan Citepus, Kota Palabuhanratu.</p>
+      <h3 class="fw-bold">Lokasi</h3>
+      <p>Kawasan Taman Bumi Ciletuh-Palabuhanratu terletak di Kabupaten Sukabumi, Provinsi Jawa Barat dengan luas sekitar 128 ribu hektare yang tersebar di 8 kecamatan di 74 desa/kelurahan.</p>
+      <p>Berikut adalah Nama-nama Kecamatan yang meliputi kawasan taman bumi ini:</p>
+      <div class="d-flex align-items-center text-center">
+        <span class="me-3"> Kota Palabuhanratu </span>
+        <span class="me-3"> Kecamatan Cisolok </span>
+        <span class="me-3"> Kecamatan Cikakak </span>
+        <span class="me-3"> Kecamatan Simpenan </span>
+      </div>
+      <div class="d-flex align-items-center text-center">
+        <span class="me-3"> Kecamatan Waluran </span>
+        <span class="me-3"> Kecamatan Ciemas </span>
+        <span class="me-3"> Kecamatan Ciracap </span>
+        <span class="me-3"> Kecamatan Surade </span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script>
+    new fullpage('#fullpage', {
+      //options here
+      autoScrolling: true,
+      scrollHorizontally: true,
+    });
+  </script>
+  <!-- Aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
