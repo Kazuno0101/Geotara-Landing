@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Artikel</title>
+  <title>Tour & Travel</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
@@ -61,71 +61,71 @@
   <!-- End Navbar -->
 
   <!-- Content -->
-  <div class="container-fluid bg-dark text-light background-artikel" data-aos="fade-up" data-aos-duration="3000">
+  <div class="container-fluid bg-dark text-light background-tour" data-aos="fade-up" data-aos-duration="1000">
     <div class="container jumbotron text-center">
-        <div class="display-4 fs-1 fw-bolder">Artikel</div>
+        <div class="display-4 fs-1 fw-bolder">Tour & Travel</div>
     </div>
   </div>
 
-  <div id="carouselExampleControls" class="container carousel my-5" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="3000">
+  <div id="carouselExampleControls" class="container carousel" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="1000">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="card-carousel">
-                <div class="img-wrapper"><img src="Assets/img/artikel-1.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="Assets/img/tour-1.jpg" class="d-block w-100" alt="..."> </div>
                 <div class="card-body p-4">
-                    <h5 class="card-title fw-bolder">Pantai Ujung Genteng sebagai Wisata Favorit Di Tahun Baru</h5>
-                    <p class="card-text mt-2">Meski Pantai Ujung Genteng berada pada garis pantai laut selatan...</p>
-                    <a href="artikel-detail.php" class="btn btn-success bg-geo-success text-light">Lihat</a>
+                    <h5 class="card-title fw-bolder mb-2">Mami Keren</h5>
+                    <p class="card-text text-geo-success"><i class="bi bi-cash-coin"></i> <span class="fs-6 text-dark">Rp 250.000,00 - Rp 750.000,00</span></p>
+                    <a href="#" class="btn btn-success bg-geo-success text-light">Pesan</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item active">
             <div class="card-carousel">
-                <div class="img-wrapper"><img src="Assets/img/artikel-2.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="Assets/img/tour-2.jpg" class="d-block w-100" alt="..."> </div>
                 <div class="card-body p-4">
-                    <h5 class="card-title fw-bolder">Pantai Cimaja menjadi Pusat Destinasi Turis</h5>
-                    <p class="card-text mt-2">Meski Pantai Ujung Genteng berada pada garis pantai laut selatan lalu...</p>
-                    <a href="artikel-detail.php" class="btn btn-success bg-geo-success text-light">Lihat</a>
+                    <h5 class="card-title fw-bolder mb-2">Travelkeun</h5>
+                    <p class="card-text text-geo-success"><i class="bi bi-cash-coin"></i> <span class="fs-6 text-dark">Rp 250.000,00 - Rp 750.000,00</span></p>
+                    <a href="#" class="btn btn-success bg-geo-success text-light">Pesan</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item active">
             <div class="card-carousel">
-                <div class="img-wrapper"><img src="Assets/img/artikel-3.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="Assets/img/tour-3.jpg" class="d-block w-100" alt="..."> </div>
                 <div class="card-body p-4">
-                    <h5 class="card-title fw-bolder">Geyser Cisolok</h5>
-                    <p class="card-text mt-2">Geological Park atau sering kita sebut Geopark adalah kawasan yang memiliki unsur geologi...</p>
-                    <a href="artikel-detail.php" class="btn btn-success bg-geo-success text-light">Lihat</a>
+                    <h5 class="card-title fw-bolder mb-2">Hayu Travel</h5>
+                    <p class="card-text text-geo-success"><i class="bi bi-cash-coin"></i> <span class="fs-6 text-dark">Rp 250.000,00 - Rp 750.000,00</span></p>
+                    <a href="#" class="btn btn-success bg-geo-success text-light">Pesan</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item active">
             <div class="card-carousel">
-                <div class="img-wrapper"><img src="Assets/img/artikel-4.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="Assets/img/tour-4.jpg" class="d-block w-100" alt="..."> </div>
                 <div class="card-body p-4">
-                    <h5 class="card-title fw-bolder">Pantai Ujung Genteng sebagai Wisata Favorit Di Tahun Baru</h5>
-                    <p class="card-text mt-2">Meski Pantai Ujung Genteng berada pada garis pantai laut selatan...</p>
-                    <a href="artikel-detail.php" class="btn btn-success bg-geo-success text-light">Lihat</a>
+                    <h5 class="card-title fw-bolder mb-2">Pariwisata</h5>
+                    <p class="card-text text-geo-success"><i class="bi bi-cash-coin"></i> <span class="fs-6 text-dark">Rp 250.000,00 - Rp 750.000,00</span></p>
+                    <a href="#" class="btn btn-success bg-geo-success text-light">Pesan</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item active">
             <div class="card-carousel">
-                <div class="img-wrapper"><img src="Assets/img/artikel-5.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="Assets/img/tour-1.jpg" class="d-block w-100" alt="..."> </div>
                 <div class="card-body p-4">
-                    <h5 class="card-title fw-bolder">Pantai Cimaja menjadi Pusat Destinasi Turis</h5>
-                    <p class="card-text mt-2">Meski Pantai Ujung Genteng berada pada garis pantai laut selatan lalu...</p>
-                    <a href="artikel-detail.php" class="btn btn-success bg-geo-success text-light">Lihat</a>
+                    <h5 class="card-title fw-bolder mb-2">Travelkeun</h5>
+                    <p class="card-text text-geo-success"><i class="bi bi-cash-coin"></i> <span class="fs-6 text-dark">Rp 250.000,00 - Rp 750.000,00</span></p>
+                    <a href="#" class="btn btn-success bg-geo-success text-light">Pesan</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item active">
             <div class="card-carousel">
-                <div class="img-wrapper"><img src="Assets/img/artikel-6.jpg" class="d-block w-100" alt="..."> </div>
+                <div class="img-wrapper"><img src="Assets/img/tour-2.jpg" class="d-block w-100" alt="..."> </div>
                 <div class="card-body p-4">
-                    <h5 class="card-title fw-bolder">Geyser Cisolok</h5>
-                    <p class="card-text mt-2">Geological Park atau sering kita sebut Geopark adalah kawasan yang memiliki unsur geologi...</p>
-                    <a href="artikel-detail.php" class="btn btn-success bg-geo-success text-light">Lihat</a>
+                    <h5 class="card-title fw-bolder mb-2">Travel Indo</h5>
+                    <p class="card-text text-geo-success"><i class="bi bi-cash-coin"></i> <span class="fs-6 text-dark">Rp 250.000,00 - Rp 750.000,00</span></p>
+                    <a href="#" class="btn btn-success bg-geo-success text-light">Pesan</a>
                 </div>
             </div>
         </div>
@@ -141,7 +141,6 @@
   </div>
   <!-- End Content -->
 
-
   <!-- Footer -->
   <footer class="text-center navbar footer bg-geo-primary text-light">
     <p class="p-3 m-auto">Credit @By Geotara</p>
@@ -153,6 +152,7 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   <script src="Assets/js/carousel.js"></script>
+
   <!-- Aos -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

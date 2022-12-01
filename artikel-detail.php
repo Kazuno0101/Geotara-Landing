@@ -20,6 +20,9 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="Assets/css/style.css" />
   <link rel="stylesheet" href="Assets/css/style-carousel.css" />
 </head>
@@ -65,7 +68,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-9 col-sm-12">
-        <div class="container card m-content-2">
+        <div class="container card m-content-2" data-aos="fade-up" data-aos-duration="3000">
 
           <a href="artikel.php" class="text-decoration-none text-geo-success m-3 mt-5"><i class="bi bi-arrow-left"></i> Kembali</a>
 
@@ -89,7 +92,7 @@
       </div>
       <div class="col-lg-3">
         
-        <div class="container m-content-2">
+        <div class="container m-content-2" data-aos="fade-up" data-aos-duration="3000">
           <div class="mb-4 card">
             <div class="card">
               <div class="px-4 py-4 card-body">
@@ -158,6 +161,11 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   <script src="Assets/js/carousel.js"></script>
+  <!-- Aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

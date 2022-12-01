@@ -11,10 +11,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <!-- Fonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <link rel="stylesheet" href="Assets/css/style.css" />
 </head>
@@ -60,7 +64,7 @@
   <div class="container m-content-2">
 
     <!-- Wisata Populer -->
-    <section id="wisata-populer" class="mb-6">
+    <section id="wisata-populer" class="mb-6" data-aos="fade-up" data-aos-duration="3000">
       <div class="row">
         <div class="col-12 text-center mb-5">
           <h2 class="fw-bolder">Populer Wisata di Ciletuh</h2>
@@ -102,7 +106,7 @@
     </section>
 
     <!-- Geopark Ciletuh -->
-    <section id="geopark-ciletuh" class="mb-6">
+    <section id="geopark-ciletuh" class="mb-6" data-aos="fade-up" data-aos-duration="3000">
       <div class="row">
         <div class="col-12 text-center">
           <h2 class="fw-bolder">Geopark Ciletuh</h2>
@@ -130,7 +134,7 @@
     </section>
 
     <!-- Lokasi Geopark Ciletuh -->
-    <section id="lokasi-geopark-ciletuh" class="mb-6">
+    <section id="lokasi-geopark-ciletuh" class="mb-6" data-aos="fade-up" data-aos-duration="3000">
       <div class="row">
         <div class="col-12 text-center">
           <h2 class="fw-bolder">Lokasi Geopark Ciletuh</h2>
@@ -162,7 +166,7 @@
     </section>
 
     <!-- Artikel -->
-    <section id="artikel" class="mb-6">
+    <section id="artikel" class="mb-6" data-aos="fade-up" data-aos-duration="3000">
       <div class="row">
         <div class="col-12 text-center">
           <h2 class="fw-bolder">Artikel Ciletuh</h2>
@@ -181,7 +185,7 @@
             
             <div class="card-body d-flex flex-column">
               <h5 class="card-title fs-6 fw-bold">Curug Sodong menyimpan berbagai sejarah</h5>
-              <a href="#" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
+              <a href="artikel.php" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
             </div>
           </div>
         </div>
@@ -195,7 +199,7 @@
             
             <div class="card-body d-flex flex-column">
               <h5 class="card-title fs-6 fw-bold">Bukit Cimarunjung Menyimpan Berbagai Misteri</h5>
-              <a href="#" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
+              <a href="artikel.php" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
             </div>
           </div>
         </div>
@@ -209,7 +213,7 @@
             
             <div class="card-body d-flex flex-column">
               <h5 class="card-title fs-6 fw-bold">Curug Cigangsa, Warisan Alam yang Memanjakan Wisatawan</h5>
-              <a href="#" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
+              <a href="artikel.php" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
             </div>
           </div>
         </div>
@@ -223,7 +227,7 @@
             
             <div class="card-body d-flex flex-column">
               <h5 class="card-title fs-6 fw-bold">Curug Sodong menyimpan berbagai sejarah</h5>
-              <a href="#" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
+              <a href="artikel.php" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
             </div>
           </div>
         </div>
@@ -237,7 +241,7 @@
             
             <div class="card-body d-flex flex-column">
               <h5 class="card-title fs-6 fw-bold">Curug Cigangsa, Warisan Alam yang Memanjakan Wisatawan</h5>
-              <a href="#" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
+              <a href="artikel.php" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
             </div>
           </div>
         </div>
@@ -251,14 +255,14 @@
             
             <div class="card-body d-flex flex-column">
               <h5 class="card-title fs-6 fw-bold">Curug Sodong menyimpan berbagai sejarah</h5>
-              <a href="#" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
+              <a href="artikel.php" class="text-geo-success text-decoration-none mt-auto align-self-start z-i-10 fw-bold">Kunjungi</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="explore">
+    <section id="explore" data-aos="fade-up" data-aos-duration="3000">
       <div class="row">
         <div class="card shadow p-0">
           <img src="Assets/img/geo-list-event-1.png" class="card-img-top" alt="Card Image">
@@ -282,6 +286,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+  
+  <!-- Aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
